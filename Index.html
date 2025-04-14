@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine einfache Webseite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #35424a;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #35424a;
+            color: white;
+            margin-top: 30px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #35424a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #4a5e69;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Willkommen auf meiner Webseite</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Über mich</h2>
+            <p>Hallo! Dies ist meine erste Webseite. Ich erstelle sie als Testprojekt, um meine HTML- und CSS-Kenntnisse zu erproben.</p>
+            <p>Sie können diese Seite ganz einfach anpassen, indem Sie den Text ändern und Ihre eigenen Inhalte hinzufügen.</p>
+            <img src="/api/placeholder/400/250" alt="Platzhalterbild">
+        </section>
+
+        <section>
+            <h2>Meine Interessen</h2>
+            <ul>
+                <li>Webentwicklung</li>
+                <li>Programmierung</li>
+                <li>Design</li>
+                <li>Neue Technologien</li>
+            </ul>
+            <p>Ich freue mich darauf, mehr über diese Themen zu lernen und meine Fähigkeiten weiterzuentwickeln.</p>
+        </section>
+
+        <section>
+            <h2>Kontakt</h2>
+            <p>Sie können mich gerne kontaktieren, wenn Sie Fragen haben oder an einer Zusammenarbeit interessiert sind.</p>
+            <a href="#" class="button">Kontakt aufnehmen</a>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 - Meine einfache Webseite</p>
+        </div>
+    </footer>
+</body>
+</html>
